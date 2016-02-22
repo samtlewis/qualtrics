@@ -1,6 +1,6 @@
 {
-    "name": "morphatic/qualtrics",
-    "description": "Provides access to the Qualtrics API in Laravel 4",
+    "name": "samtlewis/qualtrics",
+    "description": "Provides access to the Qualtrics API",
 	"license": "MIT",
     "authors": [
         {
@@ -10,25 +10,11 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.2.*@dev",
-		"guzzlehttp/guzzle": "~4.0"
+	"guzzlehttp/guzzle": "~4.0"
     },
-	"require-dev": {
-		"orchestra/testbench": "2.2.*@dev",
-		"phpdocumentor/phpdocumentor": "dev-master"
-	},
     "autoload": {
         "psr-0": {
             "Morphatic\\Qualtrics\\": "src/"
         }
     },
-	"extra": {
-		"versions": {
-			"1": "1.1/master"
-		},
-		"branch-alias": {
-			"dev-master": "1.1-dev"
-		}
-	},
-    "minimum-stability": "dev"
 }
